@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class BetterControl : MonoBehaviour
 {
+    public GameObject Anyname;
+
     public enum ControlMode
     {
         Keyboard,
