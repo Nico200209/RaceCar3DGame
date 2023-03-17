@@ -1751,7 +1751,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 5
+    m_Stiffness: 10
   m_Enabled: 1
 --- !u!1 &1225361417
 GameObject:
@@ -2152,7 +2152,7 @@ WheelCollider:
     m_ExtremumValue: 1
     m_AsymptoteSlip: 0.5
     m_AsymptoteValue: 0.75
-    m_Stiffness: 5
+    m_Stiffness: 10
   m_Enabled: 1
 --- !u!1 &1368643700
 GameObject:
@@ -2747,7 +2747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Anyname: {fileID: 0}
   control: 0
-  maxAcceleration: 300
+  maxAcceleration: 250
   brakeAcceleration: 1000
   turnSensitivity: 0.5
   maxSteerAngle: 20
