@@ -36,6 +36,11 @@ public class LapComplete : MonoBehaviour
 
         MilliDisplay.GetComponent<Text>().text = "" + LapTimeManger.MilliCount;
 
+        PlayerPrefs.SetInt("MinSave", LapTimeManger.MinCount);
+        PlayerPrefs.SetInt("SecSave", LapTimeManger.SecCount);
+        PlayerPrefs.SetFloat("MilliSave", LapTimeManger.MilliCount);
+
+
         LapTimeManger.MinCount = 0;
         LapTimeManger.SecCount = 0;
         LapTimeManger.MilliCount = 0;
