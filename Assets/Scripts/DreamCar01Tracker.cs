@@ -74,6 +74,54 @@ public class DreamCar01Tracker : MonoBehaviour
         {
             TheMarker.transform.position = Mark10.transform.position;
         }
+        if (MarkTracker == 10)
+        {
+            TheMarker.transform.position = Mark11.transform.position;
+        }
+        if (MarkTracker == 11)
+        {
+            TheMarker.transform.position = Mark12.transform.position;
+        }
+        if (MarkTracker == 12)
+        {
+            TheMarker.transform.position = Mark13.transform.position;
+        }
+        if (MarkTracker == 13)
+        {
+            TheMarker.transform.position = Mark14.transform.position;
+        }
+        if (MarkTracker == 14)
+        {
+            TheMarker.transform.position = Mark15.transform.position;
+        }
+        if (MarkTracker == 15)
+        {
+            TheMarker.transform.position = Mark16.transform.position;
+        }
+        if (MarkTracker == 16)
+        {
+            TheMarker.transform.position = Mark17.transform.position;
+        }
+        if (MarkTracker == 17)
+        {
+            TheMarker.transform.position = Mark18.transform.position;
+        }
+        if (MarkTracker == 18)
+        {
+            TheMarker.transform.position = Mark19.transform.position;
+        }
+        if (MarkTracker == 19)
+        {
+            TheMarker.transform.position = Mark20.transform.position;
+        }
+        if (MarkTracker == 20)
+        {
+            TheMarker.transform.position = Mark21.transform.position;
+        }
+        if (MarkTracker == 21)
+        {
+            TheMarker.transform.position = Mark22.transform.position;
+        }
     }
 
     IEnumerator OnTriggerEnter(Collider collision)
@@ -82,7 +130,7 @@ public class DreamCar01Tracker : MonoBehaviour
         {
             this.GetComponent<BoxCollider>().enabled = false;
             MarkTracker += 1;
-            if(MarkTracker == 10)
+            if(MarkTracker == 22)
             {
                 MarkTracker = 0;
             }
