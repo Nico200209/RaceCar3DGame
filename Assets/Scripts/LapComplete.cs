@@ -17,9 +17,14 @@ public class LapComplete : MonoBehaviour
     public GameObject LapCounter;
     public int LapsDone;
 
+    public float RawTime;
+
     void OnTriggerEnter()
     {
         LapsDone += 1;
+        RawTime = PlayerPrefs.GetFloat("RawTime");
+        if(LapTimeManger.RawTime <= RawTime)
+        {
         if(LapTimeManger.SecCount <= 9)
         {
             SecDisplay.GetComponent<Text>().text = "0" + LapTimeManger.SecCount + ".";
@@ -39,11 +44,13 @@ public class LapComplete : MonoBehaviour
         }
 
         MilliDisplay.GetComponent<Text>().text = "" + LapTimeManger.MilliCount;
+        }
 
         PlayerPrefs.SetInt("MinSave", LapTimeManger.MinCount);
         PlayerPrefs.SetInt("SecSave", LapTimeManger.SecCount);
         PlayerPrefs.SetFloat("MilliSave", LapTimeManger.MilliCount);
-
+        PlayerPrefs.SetFloat("RawTime", LapTimeManger.RawTime);
+        LapTimeManger.RawTime = 0;
 
         LapTimeManger.MinCount = 0;
         LapTimeManger.SecCount = 0;
