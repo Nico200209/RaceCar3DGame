@@ -32,18 +32,21 @@ public class CameraChange : MonoBehaviour
         yield return new WaitForSeconds(0.01f);
         if(CamMode == 0)
         {
-            NormalCam.SetActive(true);
             FPCam.SetActive(false);
+            NormalCam.SetActive(true);
+
         }
         if (CamMode == 1)
         {
-            FarCam.SetActive(true);
             NormalCam.SetActive(false);
+            FarCam.SetActive(true);
+
         }
         if (CamMode == 2)
         {
-            FPCam.SetActive(true);
             FarCam.SetActive(false);
+            FPCam.SetActive(true);
+
         }
     }
 }
