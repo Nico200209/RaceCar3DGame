@@ -16,6 +16,18 @@ public class DreamCar01Tracker : MonoBehaviour
     public GameObject Mark08;
     public GameObject Mark09;
     public GameObject Mark10;
+    public GameObject Mark11;
+    public GameObject Mark12;
+    public GameObject Mark13;
+    public GameObject Mark14;
+    public GameObject Mark15;
+    public GameObject Mark16;
+    public GameObject Mark17;
+    public GameObject Mark18;
+    public GameObject Mark19;
+    public GameObject Mark20;
+    public GameObject Mark21;
+    public GameObject Mark22;
     public int MarkTracker;
 
 

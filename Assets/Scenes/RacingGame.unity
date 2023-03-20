@@ -312,6 +312,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: DreamCar01
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 100064, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
       propertyPath: m_Name
       value: CarWaypointBased
@@ -396,6 +400,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400020, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_WheelEffects.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 11400022, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
       propertyPath: m_Target
       value: 
@@ -403,6 +411,26 @@ PrefabInstance:
     - target: {fileID: 11400026, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19800000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fb4610dba67fc24cb2a6674fb155fc1, type: 3}
@@ -556,14 +584,26 @@ MonoBehaviour:
   TheMarker: {fileID: 138567810}
   Mark01: {fileID: 189322406}
   Mark02: {fileID: 1823749379}
-  Mark03: {fileID: 0}
-  Mark04: {fileID: 0}
-  Mark05: {fileID: 0}
-  Mark06: {fileID: 0}
-  Mark07: {fileID: 0}
-  Mark08: {fileID: 0}
-  Mark09: {fileID: 0}
-  Mark10: {fileID: 0}
+  Mark03: {fileID: 593692094}
+  Mark04: {fileID: 1733714936}
+  Mark05: {fileID: 1883091344}
+  Mark06: {fileID: 1279240686}
+  Mark07: {fileID: 21843166}
+  Mark08: {fileID: 1161447647}
+  Mark09: {fileID: 1010831302}
+  Mark10: {fileID: 665666115}
+  Mark11: {fileID: 462153481}
+  Mark12: {fileID: 857297746}
+  Mark13: {fileID: 2110576479}
+  Mark14: {fileID: 1287525527}
+  Mark15: {fileID: 1350502576}
+  Mark16: {fileID: 521805876}
+  Mark17: {fileID: 1544399302}
+  Mark18: {fileID: 784749411}
+  Mark19: {fileID: 1184969062}
+  Mark20: {fileID: 1285684901}
+  Mark21: {fileID: 374116011}
+  Mark22: {fileID: 1520846132}
   MarkTracker: 0
 --- !u!65 &138567812
 BoxCollider:
@@ -1124,7 +1164,7 @@ GameObject:
   - component: {fileID: 374116013}
   - component: {fileID: 374116012}
   m_Layer: 0
-  m_Name: Mark03 (18)
+  m_Name: Mark21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1201,7 +1241,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 374116011}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 721, y: 10.53, z: 241}
+  m_LocalPosition: {x: 721, y: 2.5, z: 241}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1299,7 +1339,7 @@ GameObject:
   - component: {fileID: 462153483}
   - component: {fileID: 462153482}
   m_Layer: 0
-  m_Name: Mark03 (8)
+  m_Name: Mark11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1376,7 +1416,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462153481}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 909, y: 10.53, z: 773.3}
+  m_LocalPosition: {x: 909, y: 8.46, z: 773.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1476,7 +1516,7 @@ GameObject:
   - component: {fileID: 521805878}
   - component: {fileID: 521805877}
   m_Layer: 0
-  m_Name: Mark03 (13)
+  m_Name: Mark16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1553,7 +1593,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 521805876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 759, y: 10.53, z: 435.9}
+  m_LocalPosition: {x: 759, y: 4.56, z: 435.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1768,7 +1808,7 @@ GameObject:
   - component: {fileID: 665666117}
   - component: {fileID: 665666116}
   m_Layer: 0
-  m_Name: Mark03 (7)
+  m_Name: Mark10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1845,7 +1885,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665666115}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 818, y: 10.53, z: 869}
+  m_LocalPosition: {x: 818, y: 8.48, z: 869}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2004,7 +2044,7 @@ GameObject:
   - component: {fileID: 784749413}
   - component: {fileID: 784749412}
   m_Layer: 0
-  m_Name: Mark03 (15)
+  m_Name: Mark18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2081,7 +2121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784749411}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 902.5, y: 10.53, z: 292.2}
+  m_LocalPosition: {x: 902.5, y: 4.4, z: 292.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2101,7 +2141,7 @@ GameObject:
   - component: {fileID: 857297748}
   - component: {fileID: 857297747}
   m_Layer: 0
-  m_Name: Mark03 (9)
+  m_Name: Mark12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2178,7 +2218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 857297746}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 867, y: 10.53, z: 696}
+  m_LocalPosition: {x: 867, y: 6.49, z: 696}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2685,7 +2725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1010831302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 704, y: 10.53, z: 895}
+  m_LocalPosition: {x: 704, y: 8.55, z: 895}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3010,7 +3050,7 @@ GameObject:
   - component: {fileID: 1184969064}
   - component: {fileID: 1184969063}
   m_Layer: 0
-  m_Name: Mark03 (16)
+  m_Name: Mark19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3087,7 +3127,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184969062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 895.4, y: 10.53, z: 226.3}
+  m_LocalPosition: {x: 895.4, y: 4.54, z: 226.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3485,7 +3525,7 @@ GameObject:
   - component: {fileID: 1285684903}
   - component: {fileID: 1285684902}
   m_Layer: 0
-  m_Name: Mark03 (17)
+  m_Name: Mark20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3562,7 +3602,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285684901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 822, y: 10.53, z: 214}
+  m_LocalPosition: {x: 822, y: 2.45, z: 214}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3582,7 +3622,7 @@ GameObject:
   - component: {fileID: 1287525529}
   - component: {fileID: 1287525528}
   m_Layer: 0
-  m_Name: Mark03 (11)
+  m_Name: Mark14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3659,7 +3699,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1287525527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 608, y: 10.53, z: 556}
+  m_LocalPosition: {x: 608, y: 6.5, z: 556}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3861,7 +3901,7 @@ GameObject:
   - component: {fileID: 1350502578}
   - component: {fileID: 1350502577}
   m_Layer: 0
-  m_Name: Mark03 (12)
+  m_Name: Mark15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3938,7 +3978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1350502576}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 631, y: 10.53, z: 494}
+  m_LocalPosition: {x: 631, y: 6.47, z: 494}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4136,7 +4176,7 @@ GameObject:
   - component: {fileID: 1520846134}
   - component: {fileID: 1520846133}
   m_Layer: 0
-  m_Name: Mark03 (19)
+  m_Name: Mark22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4213,7 +4253,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520846132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 642, y: 10.53, z: 273}
+  m_LocalPosition: {x: 642, y: 4.47, z: 273}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4233,7 +4273,7 @@ GameObject:
   - component: {fileID: 1544399304}
   - component: {fileID: 1544399303}
   m_Layer: 0
-  m_Name: Mark03 (14)
+  m_Name: Mark17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4310,7 +4350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1544399302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 791.1, y: 10.53, z: 353.9}
+  m_LocalPosition: {x: 791.1, y: 4.51, z: 353.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5275,7 +5315,7 @@ GameObject:
   - component: {fileID: 2110576481}
   - component: {fileID: 2110576480}
   m_Layer: 0
-  m_Name: Mark03 (10)
+  m_Name: Mark13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5352,7 +5392,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110576479}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 685, y: 10.53, z: 696}
+  m_LocalPosition: {x: 685, y: 6.51, z: 696}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
