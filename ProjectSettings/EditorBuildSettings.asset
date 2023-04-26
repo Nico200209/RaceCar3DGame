@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ForestTrack.unity
     guid: 055a820d4abc24723bbce7603391a85f
+  - enabled: 1
+    path: Assets/Scenes/Thanks.unity
+    guid: 9ac09fd1a14734d95a5f57906ba078d8
   m_configObjects: {}

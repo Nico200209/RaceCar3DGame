@@ -569,7 +569,7 @@ Transform:
   m_GameObject: {fileID: 138567810}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 481.38403, y: 6.72, z: 238.2856}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1.2}
+  m_LocalScale: {x: 18.72576, y: 18.72576, z: 18.72576}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2349,7 +2349,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 672509170}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &672509173
 Camera:
   m_ObjectHideFlags: 0
@@ -2821,9 +2821,9 @@ MonoBehaviour:
   m_FullTorqueOverAllWheels: 2000
   m_ReverseTorque: 150
   m_MaxHandbrakeTorque: 100000000
-  m_Downforce: 100
+  m_Downforce: 500
   m_SpeedType: 0
-  m_Topspeed: 140
+  m_Topspeed: 250
   m_RevRangeBoundary: 1
   m_SlipLimit: 0.4
   m_BrakeTorque: 20000
