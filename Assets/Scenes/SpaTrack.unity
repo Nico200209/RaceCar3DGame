@@ -6606,7 +6606,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Anyname: {fileID: 0}
   control: 0
-  maxAcceleration: 225
+  maxAcceleration: 50
   brakeAcceleration: 1000
   turnSensitivity: 0.5
   maxSteerAngle: 20
